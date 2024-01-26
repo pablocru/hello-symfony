@@ -4,7 +4,7 @@ My first Symfony project
 
 ## Install twig
 
-````bash
+```bash
 cd my-project
 
 docker run --rm --interactive --tty --volume .:/app composer require twig
