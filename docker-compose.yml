@@ -13,7 +13,7 @@ services:
   myapp:
     image: bitnami/symfony:6.3
     ports:
-      - '8000:8000'
+      - '80:8000'
     environment:
       # ALLOW_EMPTY_PASSWORD is recommended only for development.
       - ALLOW_EMPTY_PASSWORD=yes
