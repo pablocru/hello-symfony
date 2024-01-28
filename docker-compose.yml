@@ -10,7 +10,7 @@ services:
       - MYSQL_DATABASE=${MYSQL_DATABASE}
       - MYSQL_USER=${MYSQL_USER}
       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
-  myapp:
+  symfony:
     image: bitnami/symfony:6.3
     ports:
       - '80:8000'
