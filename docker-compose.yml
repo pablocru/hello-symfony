@@ -11,7 +11,7 @@ services:
       - MYSQL_USER=${MYSQL_USER}
       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
   myapp:
-    image: docker.io/bitnami/symfony:6.3
+    image: bitnami/symfony:6.3
     ports:
       - '8000:8000'
     environment:
